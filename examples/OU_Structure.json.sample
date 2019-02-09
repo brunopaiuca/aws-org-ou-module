@@ -1,0 +1,35 @@
+{
+	"topLevelOUID": "MY ROOT OU ID",
+	"OUs": [
+                {
+			"OUName": "Core_Accounts"
+		},
+		{
+			"OUName": "WorkLoad_Accounts"
+		},
+		{
+			"OUName": "Developer_Accounts"
+		}, 
+                {
+                        "ParentOUName": "WorkLoad_Accounts",
+                        "OUName": "Br"
+                },
+		{
+			"ParentOUName": "WorkLoad_Accounts",
+			"OUName": "Production_WorkLoad"
+		},
+		{
+			"ParentOUName": "WorkLoad_Accounts",
+			"OUName": "Staging_WorkLoad"
+		},
+		{
+			"ParentOUName": "WorkLoad_Accounts",
+			"OUName": "Testing_WorkLoad"
+		},
+		{
+			"ParentOUName": "WorkLoad_Accounts",
+			"OUName": "Development_WorkLoad"
+		}
+	]
+
+}
